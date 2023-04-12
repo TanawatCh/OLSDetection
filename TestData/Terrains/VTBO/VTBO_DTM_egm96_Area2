@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="qcform.xsl"?>
+<GEO_XML_FILE version="1.0">
+<NAME>Trat/Khao Sming Airport - Terrain ICAO metadata file</NAME>
+<SECTION name="General Information">
+<DATA exec="" help="" name="General Information">
+<GUI editable="1" type="string">
+<GUINAME>ICAO Code</GUINAME>
+<VALUE id="ICAO">VTBO</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Version</GUINAME>
+<VALUE id="VERSION">V1</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Area of Coverage</GUINAME>
+<VALUE id="AREA_OF_COVERAGE">2a,2b,2c(airport area)</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Acquisition Method</GUINAME>
+<VALUE id="ACQUISITION_METHOD">Pleiades satellite imagery</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Recorded Surface</GUINAME>
+<VALUE id="RECORDED_SURFACE">Digital Terrain Model</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Elevation Reference</GUINAME>
+<VALUE id="ZREFERENCE">Maximum value, cell center</VALUE>
+</GUI>
+</DATA>
+</SECTION>
+<SECTION name="Reference Information">
+<DATA exec="" help="" name="Cartographic system">
+<GUI editable="1" type="string">
+<GUINAME>Horizontal Reference System</GUINAME>
+<VALUE id="HREFERENCE">WGS84 (epsg : 4326)</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Horizontal Resolution</GUINAME>
+<VALUE id="HRESOLUTION">0.000001</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Vertical Reference System</GUINAME>
+<VALUE id="VREFERENCE">EGM96</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Vertical resolution</GUINAME>
+<VALUE id="VRESOLUTION">0.001</VALUE>
+</GUI>
+</DATA>
+<DATA exec="" help="" name="Accuracy information">
+<GUI editable="1" type="string">
+<GUINAME>Horizontal Accuracy</GUINAME>
+<VALUE id="HACCURACY">0.626</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Horizontal Confidence Level</GUINAME>
+<VALUE id="HCONFIDENCE">90%</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Vertical Accuracy</GUINAME>
+<VALUE id="VACCURACY">0.890</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Vertical Confidence Level</GUINAME>
+<VALUE id="VCONFIDENCE">90%</VALUE>
+</GUI>
+</DATA>
+<DATA exec="" help="" name="Product Information">
+<GUI editable="1" type="string">
+<GUINAME>Data Originator Identifier</GUINAME>
+<VALUE id="DATA_ORIGINATOR_ID">DELV Aerospace</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Data Source Identifier</GUINAME>
+<VALUE id="DATA_SOURCE_ID">DELV Aerospace</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Integrity</GUINAME>
+<VALUE id="Integrity">essential</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Date and time stamp</GUINAME>
+<VALUE id="DATE_SOURCE">10/11/2022</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Post spacing</GUINAME>
+<VALUE id="POST_SPACING">0.27183906464603</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Horizontal Unit</GUINAME>
+<VALUE id="HUNIT">decimal degree</VALUE>
+</GUI>
+<GUI editable="1" type="string">
+<GUINAME>Vertical Unit</GUINAME>
+<VALUE id="VUNIT">meter</VALUE>
+</GUI>
+<GUI editable="1" type="enumerated:Geotiff|Ascii Grid">
+<GUINAME>Raster format</GUINAME>
+<VALUE id="FORMAT">Geotiff</VALUE>
+</GUI>
+</DATA>
+</SECTION>
+</GEO_XML_FILE>
